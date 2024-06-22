@@ -2,7 +2,7 @@
 @font-face { font-family: 'playwrite'; src: url('font/Playwrite_AU_TAS/PlaywriteAUTAS-VariableFont_wght.ttf'); }
 
 a{ text-decoration: none; }
-body{ background-color: #22296b; }
+body{ background-color: #81706c93; }
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
@@ -11,7 +11,7 @@ body{ background-color: #22296b; }
     height: 230px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #544fa3cb;
+    background: #815f5857;
     position: absolute;
     left: 185px;
     top: 150px;
@@ -33,9 +33,9 @@ body{ background-color: #22296b; }
 #name{
     font-size: 50px;
     font-family: 'lxgw';
-    color: rgb(178, 203, 255);
+    color: #815F58;
     position: absolute;
     left: 200px;
     top: 70px;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
