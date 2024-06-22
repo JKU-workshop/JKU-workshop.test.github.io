@@ -30,6 +30,11 @@ body{ background-color: #FFFBEE; margin: 0%;}
     top: 10px;
     border-radius: 10px;
 }
+#avatar:hover{
+    left: 0px;
+    top: 0px;
+    transition: left 0.3s, top 0.3s;
+}
 
 .menu{
     /* display: flex; */
