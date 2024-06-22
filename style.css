@@ -30,3 +30,106 @@ body{ background-color: #FFFBEE; margin: 0%;}
     top: 10px;
     border-radius: 10px;
 }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #EFE7DD;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+    user-select:none; /* standard syntax */
+    -webkit-user-select:none; /* for Chrome、Safari */
+    -moz-user-select:none;  /* for Mozilla、Firefox */
+    overflow-y:auto;
+}
+.menuword {
+    letter-spacing: 5px;
+    color: #38250d;
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
+.menutitle {
+    letter-spacing: 5px;
+    color: #291b09;
+    font-size: 25px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
+
+.mainmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 160px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ecdac4;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    user-select:none; /* standard syntax */
+    -webkit-user-select:none; /* for Chrome、Safari */
+    -moz-user-select:none;  /* for Mozilla、Firefox */
+    overflow-y:auto;
+}
+.mainmenuword {
+    letter-spacing: 5px;
+    color: #38250d;
+    font-size: 15px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
+.mainmenutitle {
+    letter-spacing: 5px;
+    color: #291b09;
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
+
+.main2menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 140px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ecdac4;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    user-select:none; /* standard syntax */
+    -webkit-user-select:none; /* for Chrome、Safari */
+    -moz-user-select:none;  /* for Mozilla、Firefox */
+    overflow-y:auto;
+}
+.main2menuword {
+    letter-spacing: 5px;
+    color: #38250d;
+    font-size: 15px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
+.main2menutitle {
+    letter-spacing: 5px;
+    color: #291b09;
+    font-size: 20px;
+    margin-left: 25px;
+    font-family: 'lxgw';
+}
