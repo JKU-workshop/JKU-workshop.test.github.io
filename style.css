@@ -43,8 +43,8 @@ body{ background-color: #FFFBEE; margin: 0%;}
     border-radius: 10px;
     background: #EFE7DD;
     position: absolute;
-    left: 210px;
-    top: 30px;
+    left: 30px;
+    top: 220px;
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
