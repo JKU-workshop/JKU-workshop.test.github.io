@@ -230,3 +230,10 @@
       transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
     }
   }
+
+
+.timebox{
+  background-color: #fff89b;
+  margin-left: 10px;
+  margin-top: 30px;
+}
