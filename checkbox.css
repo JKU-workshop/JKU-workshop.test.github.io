@@ -241,12 +241,12 @@
 }
 .timeboxall{ position: absolute; }
 .d7{margin-left: 600px;}
-.d1{margin-left: 660px; margin-top: -140px;}
-.d2{margin-left: 720px; margin-top: -140px;}
-.d3{margin-left: 780px; margin-top: -140px;}
-.d4{margin-left: 840px; margin-top: -140px;}
-.d5{margin-left: 900px; margin-top: -140px;}
-.d6{margin-left: 960px; margin-top: -140px;}
+.d1{margin-left: 650px; margin-top: -88px;}
+.d2{margin-left: 700px; margin-top: -88px;}
+.d3{margin-left: 750px; margin-top: -88px;}
+.d4{margin-left: 800px; margin-top: -88px;}
+.d5{margin-left: 850px; margin-top: -88px;}
+.d6{margin-left: 900px; margin-top: -88px;}
 .timeword{
   font-family: 'lxgw';
   font-size: 25px;
