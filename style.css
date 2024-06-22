@@ -142,3 +142,25 @@ body{ background-color: #FFFBEE; margin: 0%;}
     font-size: 15px;
     color: #f10000;
 }
+
+.card {
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
+    background: #7c582d;
+    border-radius: 75px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+  
+    color: white;
+    font-family: 'Poppins' sans-serif;
+}  
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}  
