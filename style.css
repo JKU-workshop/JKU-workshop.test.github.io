@@ -173,6 +173,10 @@ body{ background-color: #FFFBEE; margin: 0%;}
     margin-left: 40px;
     font-family: 'lxgw';
     line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .remark{
