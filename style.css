@@ -1,7 +1,7 @@
 @font-face { font-family: 'lxgw'; src: url('font/LXGW_WenKai_Mono_TC/LXGWWenKaiMonoTC-Regular.ttf'); }
 @font-face { font-family: 'playwrite'; src: url('font/Playwrite_AU_TAS/PlaywriteAUTAS-VariableFont_wght.ttf'); }
 
-a{ text-decoration: none; }
+a{ text-decoration: none; color: #291b09; }
 body{ background-color: #FFFBEE; margin: 0%;}
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
