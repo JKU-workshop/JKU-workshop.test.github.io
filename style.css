@@ -44,7 +44,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     background: #EFE7DD;
     position: absolute;
     left: 210px;
-    top: 100px;
+    top: 30px;
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
@@ -56,13 +56,14 @@ body{ background-color: #FFFBEE; margin: 0%;}
     color: #38250d;
     font-size: 20px;
     margin-left: 25px;
+    margin-top: 150px;
     font-family: 'lxgw';
 }
 .menutitle {
     letter-spacing: 5px;
     color: #291b09;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 41px;
     font-family: 'lxgw';
 }
 
@@ -72,13 +73,13 @@ body{ background-color: #FFFBEE; margin: 0%;}
     align-items: center; */
     
     width: 200px;
-    height: 350px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #ecdac4;
     position: absolute;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: -15px;
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
@@ -106,13 +107,13 @@ body{ background-color: #FFFBEE; margin: 0%;}
     align-items: center; */
     
     width: 180px;
-    height: 350px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #ecdac4;
     position: absolute;
     margin-left: 220px;
-    margin-top: 10px;
+    margin-top: -15px;
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
