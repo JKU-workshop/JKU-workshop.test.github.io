@@ -2,19 +2,19 @@
 @font-face { font-family: 'playwrite'; src: url('font/Playwrite_AU_TAS/PlaywriteAUTAS-VariableFont_wght.ttf'); }
 
 a{ text-decoration: none; }
-body{ background-color: #d1a56793; }
+body{ background-color: #FFFBEE; }
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
 .box{
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #be965ea1;
+    background: #EFE7DD;
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 30px;
+    top: 30px;
     /* margin-left:-100px;
     margin-top:-100px; */
 
@@ -26,7 +26,7 @@ body{ background-color: #d1a56793; }
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 60px;
-    top: 60px;
+    left: 40px;
+    top: 40px;
     border-radius: 10px;
 }
