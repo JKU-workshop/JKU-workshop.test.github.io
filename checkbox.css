@@ -240,13 +240,13 @@
   border-radius: 10px;
 }
 .timeboxall{ position: absolute; }
-.d7{margin-left: 600px;}
-.d1{margin-left: 650px; margin-top: -88px;}
-.d2{margin-left: 700px; margin-top: -88px;}
-.d3{margin-left: 750px; margin-top: -88px;}
-.d4{margin-left: 800px; margin-top: -88px;}
-.d5{margin-left: 850px; margin-top: -88px;}
-.d6{margin-left: 900px; margin-top: -88px;}
+.d7{margin-left: 750px; margin-top: -50px;}
+.d1{margin-left: 800px; margin-top: -88px;}
+.d2{margin-left: 850px; margin-top: -88px;}
+.d3{margin-left: 900px; margin-top: -88px;}
+.d4{margin-left: 950px; margin-top: -88px;}
+.d5{margin-left: 1000px; margin-top: -88px;}
+.d6{margin-left: 1050px; margin-top: -88px;}
 .timeword{
   font-family: 'lxgw';
   font-size: 25px;
@@ -255,3 +255,6 @@
   -moz-user-select:none;  /* for Mozilla、Firefox */
   overflow-y:auto;
 }
+.tmwtitle{ margin-left: 800px; margin-top: 20px; }
+.tmwam{ margin-left: 600px; margin-top: 50px; }
+.tmwpm{ margin-left: 600px; margin-top: 80px; }
