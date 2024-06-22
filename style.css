@@ -7,16 +7,16 @@ body{ background-color: #d1a56793; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
 .box{
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #d1a56793;
+    background: #be965ea1;
     position: absolute;
-    left: 185px;
-    top: 150px;
-    margin-left:-100px;
-    margin-top:-100px;
+    left: 50px;
+    top: 50px;
+    /* margin-left:-100px;
+    margin-top:-100px; */
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
@@ -26,7 +26,7 @@ body{ background-color: #d1a56793; }
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 50px;
-    top: 40px;
+    left: 60px;
+    top: 60px;
     border-radius: 10px;
 }
