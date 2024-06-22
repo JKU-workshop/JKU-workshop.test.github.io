@@ -144,7 +144,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     align-items: center;
     /* justify-content: center; */
 
-    width: 280px;
+    width: 270px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -162,7 +162,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     letter-spacing: 5px;
     color: #291b09;
     font-size: 30px;
-    margin-left: 51px;
+    margin-left: 25px;
     font-family: 'lxgw';
 }
 
@@ -170,7 +170,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     letter-spacing: 5px;
     color: #38250d;
     font-size: 20px;
-    margin-left: 40px;
+    margin-left: 25px;
     font-family: 'lxgw';
     line-height: 20px;
 }
@@ -206,7 +206,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
 .donutmenucard {
     width: 180px;
     height: 70px;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 320px;
     background: #8d6f4b;
     border-radius: 75px;
