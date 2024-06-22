@@ -143,24 +143,25 @@ body{ background-color: #FFFBEE; margin: 0%;}
     color: #f10000;
 }
 
-.card {
-    width: 150px;
-    height: 100px;
-    margin-left: 100px;
-    margin-top: 150px;
-    background: #7c582d;
+.saladmenucard {
+    width: 100px;
+    height: 70px;
+    margin-left: 300px;
+    margin-top: 330px;
+    background: #8d6f4b;
     border-radius: 75px;
-    font-size: 45px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
     transition: 0.5s ease-in-out;
-  
     color: white;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'lxgw';
+    position: absolute;
+    z-index: 2;
 }  
-.card:hover {
+.saladmenucard:hover {
     cursor: pointer;
     transform: scale(1.05);
 }  
