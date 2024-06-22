@@ -38,7 +38,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     /* justify-content: center; */
 
     width: 410px;
-    height: 500px;
+    height: 470px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #EFE7DD;
@@ -56,7 +56,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     color: #38250d;
     font-size: 20px;
     margin-left: 25px;
-    margin-top: 150px;
+    margin-top: 340px;
     font-family: 'lxgw';
 }
 .menutitle {
