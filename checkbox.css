@@ -238,12 +238,17 @@
   margin-top: 30px;
   width: 50px;
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .timeboxall{ position: absolute; }
 .d7{margin-left: 600px;}
-.d1{margin-left: 660px;}
-.d2{margin-left: 720px;}
-.d3{margin-left: 780px;}
-.d4{margin-left: 840px;}
-.d5{margin-left: 900px;}
-.d6{margin-left: 960px;}
+.d1{margin-left: 660px; margin-top: -140px;}
+.d2{margin-left: 720px; margin-top: -140px;}
+.d3{margin-left: 780px; margin-top: -140px;}
+.d4{margin-left: 840px; margin-top: -140px;}
+.d5{margin-left: 900px; margin-top: -140px;}
+.d6{margin-left: 960px; margin-top: -140px;}
