@@ -7,7 +7,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
 .box{
-    width: 800px;
+    width: 540px;
     height: 160px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -21,7 +21,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     -moz-user-select:none;  /* for Mozilla、Firefox */
 }
 #avatar{
-    /*width: 800px;*/
+    width: 540px;
     height: 160px;
     position: absolute;
     left: 10px;
