@@ -7,8 +7,8 @@ body{ background-color: #81706c93; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
 .box{
-    width: 350px;
-    height: 230px;
+    width: 230px;
+    height: 250px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #815f5857;
@@ -26,8 +26,8 @@ body{ background-color: #81706c93; }
     width: 130px;
     height: 130px;
     position: absolute;
-    left: 50px;
-    top: 30px;
+    left: 40px;
+    top: 40px;
     border-radius: 10px;
 }
 #name{
@@ -35,7 +35,7 @@ body{ background-color: #81706c93; }
     font-family: 'lxgw';
     color: #815F58;
     position: absolute;
-    left: 200px;
-    top: 70px;
+    left: 30px;
+    top: 160px;
     letter-spacing: 10px;
 }
