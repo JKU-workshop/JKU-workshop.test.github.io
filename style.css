@@ -37,7 +37,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     align-items: center;
     /* justify-content: center; */
 
-    width: 700px;
+    width: 400px;
     height: 500px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -54,14 +54,14 @@ body{ background-color: #FFFBEE; margin: 0%;}
 .menuword {
     letter-spacing: 5px;
     color: #38250d;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
 .menutitle {
     letter-spacing: 5px;
     color: #291b09;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
@@ -71,7 +71,7 @@ body{ background-color: #FFFBEE; margin: 0%;}
     justify-content: center;
     align-items: center; */
     
-    width: 400px;
+    width: 200px;
     height: 350px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -88,14 +88,14 @@ body{ background-color: #FFFBEE; margin: 0%;}
 .mainmenuword {
     letter-spacing: 5px;
     color: #38250d;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
 .mainmenutitle {
     letter-spacing: 5px;
     color: #291b09;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
@@ -105,13 +105,13 @@ body{ background-color: #FFFBEE; margin: 0%;}
     justify-content: center;
     align-items: center; */
     
-    width: 300px;
+    width: 150px;
     height: 350px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #ecdac4;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 400px;
     margin-top: 10px;
 
     user-select:none; /* standard syntax */
@@ -122,14 +122,14 @@ body{ background-color: #FFFBEE; margin: 0%;}
 .main2menuword {
     letter-spacing: 5px;
     color: #38250d;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
 .main2menutitle {
     letter-spacing: 5px;
     color: #291b09;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 25px;
     font-family: 'lxgw';
 }
