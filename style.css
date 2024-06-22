@@ -2,40 +2,31 @@
 @font-face { font-family: 'playwrite'; src: url('font/Playwrite_AU_TAS/PlaywriteAUTAS-VariableFont_wght.ttf'); }
 
 a{ text-decoration: none; }
-body{ background-color: #81706c93; }
+body{ background-color: #d1a56793; }
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
 .box{
-    width: 230px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #815f5857;
+    background: #d1a56793;
     position: absolute;
     left: 185px;
     top: 150px;
-    margin-left:-175px;
-    margin-top:-140px;
+    margin-left:-100px;
+    margin-top:-100px;
 
     user-select:none; /* standard syntax */
     -webkit-user-select:none; /* for Chrome、Safari */
     -moz-user-select:none;  /* for Mozilla、Firefox */
 }
 #avatar{
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    left: 40px;
+    left: 50px;
     top: 40px;
     border-radius: 10px;
-}
-#name{
-    font-size: 50px;
-    font-family: 'lxgw';
-    color: #815F58;
-    position: absolute;
-    left: 30px;
-    top: 160px;
-    letter-spacing: 10px;
 }
