@@ -6,6 +6,15 @@ body{ background-color: #FFFBEE; margin: 0%;}
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar:hover { width: 7px; height: 7px; }
   
+
+#phone_icon,#mail_icon{ width: 30px; height: 30px; transition: stroke 0.3s; }
+#mail_link{ position: absolute; display: inline-block; }
+#phone_icon{ position: absolute; display: inline-block; }
+#mail_icon { stroke: #ffeacb6e; }
+#phone_icon { stroke: #ffeacb6e; }
+#mail_icon:hover { stroke: #ff8aa3; }
+#phone_icon:hover { stroke: #8f3d2f; }
+
 .box{
     width: 540px;
     height: 160px;
