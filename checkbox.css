@@ -236,4 +236,14 @@
   background-color: #fff89b;
   margin-left: 10px;
   margin-top: 30px;
+  width: 50px;
+  border-radius: 10px;
 }
+.timeboxall{ position: absolute; }
+.d7{margin-left: 600px;}
+.d1{margin-left: 660px;}
+.d2{margin-left: 720px;}
+.d3{margin-left: 780px;}
+.d4{margin-left: 840px;}
+.d5{margin-left: 900px;}
+.d6{margin-left: 960px;}
