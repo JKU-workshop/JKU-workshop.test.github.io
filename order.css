@@ -53,12 +53,12 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
 
 /* saladMeals */
 .saladMeals1 { margin-top: 110px; position: absolute; background-color: #ffe89b; border-radius: 10px; width: 330px; height: 65px; transition: all 0.5s ease-in-out; }
-.saladMeals1:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.1) translateX(1px) translateY(1px); }
+.saladMeals1:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.0) translateX(1px) translateY(1px); }
 .saladMeals2 { margin-top: 190px; position: absolute; background-color: #ffe89b; border-radius: 10px; width: 330px; height: 65px; transition: all 0.5s ease-in-out; }
-.saladMeals2:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.1) translateX(1px) translateY(1px); }
+.saladMeals2:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.0) translateX(1px) translateY(1px); }
 .saladMeals3 { margin-top: 270px; position: absolute; background-color: #ffe89b; border-radius: 10px; width: 330px; height: 65px; transition: all 0.5s ease-in-out; }
-.saladMeals3:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.1) translateX(1px) translateY(1px); }
+.saladMeals3:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.0) translateX(1px) translateY(1px); }
 .saladMeals4 { margin-top: 350px; position: absolute; background-color: #ffe89b; border-radius: 10px; width: 330px; height: 65px; transition: all 0.5s ease-in-out; }
-.saladMeals4:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.1) translateX(1px) translateY(1px); }
+.saladMeals4:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.0) translateX(1px) translateY(1px); }
 .saladMeals5 { margin-top: 430px; position: absolute; background-color: #ffe89b; border-radius: 10px; width: 330px; height: 65px; transition: all 0.5s ease-in-out; }
-.saladMeals5:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.1) translateX(1px) translateY(1px); }
+.saladMeals5:hover { transition: 0.5s; background-color: #ffe590; transform: scale(1.0) translateX(1px) translateY(1px); }
