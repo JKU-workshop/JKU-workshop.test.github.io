@@ -32,8 +32,8 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
 .dwd4 { margin-top: -25px; }
 .dwd5 { margin-top: -25px; }
 .dwd6 { margin-top: -25px; }
-.dwbox2 { position: absolute; background-color: #ffe48e; }
-.dwbox3 { position: absolute; background-color: #ffe48e; }
-.dwbox4 { position: absolute; background-color: #ffe48e; }
-.dwbox5 { position: absolute; background-color: #ffe48e; }
-.dwbox6 { position: absolute; background-color: #ffe48e; }
+.dwbox2 { position: absolute; background-color: #ffe48e; margin-top: 20px; margin-left: 10px; }
+.dwbox3 { position: absolute; background-color: #ffe48e; margin-top: 20px; margin-left: 100px; }
+.dwbox4 { position: absolute; background-color: #ffe48e; margin-top: 80px; margin-left: 10px; }
+.dwbox5 { position: absolute; background-color: #ffe48e; margin-top: 80px; margin-left: 100px; }
+.dwbox6 { position: absolute; background-color: #ffe48e; margin-top: 140px; margin-left: 10px; }
