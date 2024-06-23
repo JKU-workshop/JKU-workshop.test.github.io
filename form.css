@@ -20,7 +20,7 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
 .dweek input:checked ~ .checkmark { transform: rotate(45deg); height: 2em; width: .7em; border-color: #cd8f32; border-top-color: transparent; border-left-color: transparent; border-radius: 0; margin-top: -30px; margin-bottom: 5px; }
 .dweek .checkmark { display: block; width: inherit; height: inherit; border: 2px solid #cd8f32; border-radius: 4px; transition: all .3s; margin-left: 35px; margin-right: 5px;}
 /* dweekDay */
-.dweekbox { background-color: #e6d2ad; border-radius: 10px; height: 250px; margin-left: 10px; margin-right: 10px; margin-top: -30px;}
+.dweekbox { background-color: #e6d2ad; border-radius: 10px; height: 280px; margin-left: 10px; margin-right: 10px; margin-top: -30px;}
 .dweektitle { font-family: 'lxgw'; font-size: 20px; margin-left: 10px;}
 .dweekd7 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
 .dweekd1 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
