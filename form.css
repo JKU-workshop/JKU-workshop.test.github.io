@@ -1,7 +1,7 @@
 /* NameBox */
-.form-control { position: relative; margin: 20px 0 40px; width: 190px; }
-.form-control input { background-color: #FFFBEE; border: 0; border-bottom: 2px #fff solid; display: block; width: 100%; padding: 15px 0; font-size: 18px; color: #fff; }  
-.form-control input:focus, .form-control input:valid { outline: 0; border-bottom-color: #e6d2ad; }  
-.form-control label { position: absolute; top: 15px; left: 0; pointer-events: none; }  
-.form-control label span { display: inline-block; font-size: 18px; min-width: 5px; color: #fff; transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }  
-.form-control input:focus+label span, .form-control input:valid+label span { color: #e6cbad; transform: translateY(-30px); }
+.NameBox { position: relative; margin: 20px 0 40px; width: 190px; }
+.NameBox input { background-color: #FFFBEE; border: 0; border-bottom: 2px #fff solid; display: block; width: 100%; padding: 15px 0; font-size: 18px; color: #fff; }  
+.NameBox input:focus, .NameBox input:valid { outline: 0; border-bottom-color: #e6d2ad; }  
+.NameBox label { position: absolute; top: 15px; left: 0; pointer-events: none; }  
+.NameBox label span { display: inline-block; font-size: 18px; min-width: 5px; color: #fff; transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }  
+.NameBox input:focus+label span, .NameBox input:valid+label span { color: #e6cbad; transform: translateY(-30px); }
