@@ -11,11 +11,13 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
 </head>
 <body>
     <div class="Form">
         <div class="NameBox">
-            <input type="value" required="">
+            <input type="value" id="Name" required="required">
             <label><span style="transition-delay:0ms">訂</span><span style="transition-delay:50ms">貨</span><span style="transition-delay:100ms">人</span><span style="transition-delay:150ms">姓</span><span style="transition-delay:200ms">名</span></label>
         </div>
         <div class="dateweek">
@@ -47,6 +49,14 @@
                 </script>
             </div>
         </div>
+        <a href="#"><div class="next">Next</div></a>
     </div>
+    <script>
+        $(".next").click(function(){
+            if($("#Name").val() == "") alert("請填寫姓名");
+            else if($(".cs-select option:checked").val() == "") alert("請選擇收貨日期");
+            else window.location.href = 'https://jku-workshop.github.io/order.html';
+        });
+    </script>
 </body>
 </html>
