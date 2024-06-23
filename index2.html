@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link href='http://fonts.useso.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
+	</head>
+	<body class="color-2">
+		<div class="container">
+			<section>
+				<select class="cs-select cs-skin-underline">
+					<option value="" disabled selected>選擇收貨時間</option>
+					<option value="1">星期二上午</option>
+					<option value="2">星期二下午</option>
+					<option value="3">星期三上午</option>
+					<option value="4">星期三下午</option>
+					<option value="5">星期四上午</option>
+					<option value="6">星期四下午</option>
+					<option value="7">星期五上午</option>
+					<option value="8">星期五下午</option>
+					<option value="9">星期六下午</option>
+				</select>
+			</section>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx(el);
+				} );
+			})();
+		</script>
+	</body>
+</html>

@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="form.css">
     <link rel="icon" href="img/icon.ico" type="image/x-icon" />
     <title>訂餐表</title>
+
+    <link href='http://fonts.useso.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-underline.css" />
 </head>
 <body>
     <div class="Form">
@@ -14,13 +19,33 @@
             <label><span style="transition-delay:0ms">訂</span><span style="transition-delay:50ms">貨</span><span style="transition-delay:100ms">人</span><span style="transition-delay:150ms">姓</span><span style="transition-delay:200ms">名</span></label>
         </div>
         <div class="dateweek">
-            <form>
-                <label><input type="radio" name="dweek"><span>星期二上午</span></label><label><input type="radio" name="dweek"><span>星期二下午</span></label>
-                <label><input type="radio" name="dweek"><span>星期三上午</span></label><label><input type="radio" name="dweek"><span>星期三下午</span></label>
-                <label><input type="radio" name="dweek"><span>星期四上午</span></label><label><input type="radio" name="dweek"><span>星期四下午</span></label>
-                <label><input type="radio" name="dweek"><span>星期五上午</span></label><label><input type="radio" name="dweek"><span>星期五下午</span></label>
-                <label><input type="radio" name="dweek"><span>星期六下午</span></label>
-            </form>
+            <div class="color-2">
+                <div class="container">
+                    <section>
+                        <select class="cs-select cs-skin-underline">
+                            <option value="" disabled selected>選擇收貨時間</option>
+                            <option value="1">星期二上午</option>
+                            <option value="2">星期二下午</option>
+                            <option value="3">星期三上午</option>
+                            <option value="4">星期三下午</option>
+                            <option value="5">星期四上午</option>
+                            <option value="6">星期四下午</option>
+                            <option value="7">星期五上午</option>
+                            <option value="8">星期五下午</option>
+                            <option value="9">星期六下午</option>
+                        </select>
+                    </section>
+                </div>
+                <script src="js/classie.js"></script>
+                <script src="js/selectFx.js"></script>
+                <script>
+                    (function() {
+                        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+                            new SelectFx(el);
+                        } );
+                    })();
+                </script>
+            </div>
         </div>
     </div>
 </body>
