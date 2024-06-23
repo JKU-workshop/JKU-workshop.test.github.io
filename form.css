@@ -17,18 +17,23 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
 /* CheckBox.Mark */
 .dweek { display: block; height: 1.5em; width: 1.5em; cursor: pointer; position: relative; margin-left: 10px; margin-right: 10px; }
 .dweek input { position: absolute; transform: scale(0); }
-.dweek input:checked ~ .checkmark { transform: rotate(45deg); height: 2em; width: .7em; border-color: #cd8f32; border-top-color: transparent; border-left-color: transparent; border-radius: 0; }
-.dweek .checkmark { display: block; width: inherit; height: inherit; border: 2px solid #cd8f32; border-radius: 4px; transition: all .3s; margin-left: 15px; margin-right: 5px;}
+.dweek input:checked ~ .checkmark { transform: rotate(45deg); height: 2em; width: .7em; border-color: #cd8f32; border-top-color: transparent; border-left-color: transparent; border-radius: 0; margin-top: -30px; margin-bottom: 5px; }
+.dweek .checkmark { display: block; width: inherit; height: inherit; border: 2px solid #cd8f32; border-radius: 4px; transition: all .3s; margin-left: 35px; margin-right: 5px;}
 /* dweekDay */
-.dweekbox {background-color: #e6d2ad; margin: 10px; border-radius: 10px;}
-.dweektitle {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dweekd2 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dweekd3 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dweekd4 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dweekd5 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dweekd6 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
-.dwd2 {margin-top: 10px;}
-.dwd3 {margin-top: 10px;}
-.dwd4 {margin-top: 10px;}
-.dwd5 {margin-top: 10px;}
-.dwd6 {margin-top: 10px;}
+.dweekbox { background-color: #e6d2ad; margin: 10px; border-radius: 10px; height: 250px; }
+.dweektitle { font-family: 'lxgw'; font-size: 20px; margin-left: 10px;}
+.dweekd2 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd3 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd4 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd5 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd6 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dwd2 { margin-top: -25px; }
+.dwd3 { margin-top: -25px; }
+.dwd4 { margin-top: -25px; }
+.dwd5 { margin-top: -25px; }
+.dwd6 { margin-top: -25px; }
+.dwbox2 { position: absolute; background-color: #ffe48e; }
+.dwbox3 { position: absolute; background-color: #ffe48e; }
+.dwbox4 { position: absolute; background-color: #ffe48e; }
+.dwbox5 { position: absolute; background-color: #ffe48e; }
+.dwbox6 { position: absolute; background-color: #ffe48e; }
