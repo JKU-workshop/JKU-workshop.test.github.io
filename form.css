@@ -14,3 +14,16 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
 .NameBox label { position: absolute; top: 15px; left: 0; pointer-events: none; }  
 .NameBox label span { display: inline-block; font-size: 18px; min-width: 5px; margin-left: 5px; color: #a98d1b; transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }  
 .NameBox input:focus+label span, .NameBox input:valid+label span { color: #aa7335; transform: translateY(-30px); }
+/* CheckBox.Mark */
+.dweek { display: block; height: 1.5em; width: 1.5em; cursor: pointer; position: relative; margin-left: 10px; margin-right: 10px; }
+.dweek input { position: absolute; transform: scale(0); }
+.dweek input:checked ~ .checkmark { transform: rotate(45deg); height: 2em; width: .7em; border-color: #cd8f32; border-top-color: transparent; border-left-color: transparent; border-radius: 0; }
+.dweek .checkmark { display: block; width: inherit; height: inherit; border: 2px solid #cd8f32; border-radius: 4px; transition: all .3s; margin-left: 15px; margin-right: 5px;}
+/* dweekDay */
+.dweekbox {background-color: #e6d2ad;}
+.dweektitle {font-family: 'lxgw'; font-size: 25px; margin-left: 0px;}
+.dweekd2 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
+.dweekd3 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
+.dweekd4 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
+.dweekd5 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
+.dweekd6 {font-family: 'lxgw'; font-size: 20px; margin-left: 0px;}
