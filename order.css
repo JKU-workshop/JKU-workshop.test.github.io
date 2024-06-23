@@ -10,10 +10,8 @@ body{ background-color: #FFFBEE; margin: 0%; font-family: 'lxgw'; }
     position: absolute;
     display: flex; justify-content: center; 
     background-color: #fff3cc;
-    border-radius: 10px;
-    width: 350px; height: 500px;
-    margin-top: 35px;
-    margin-left: 25px;
+    border-radius: 10px; width: 350px; height: 500px;
+    margin-top: 35px; margin-left: 10px;
 }
 .saladTitle { font-size: 25px; transition: 0.3s; color: #291b09; margin-top: 10px; }
 .saladTitle:hover { font-size: 30px; }
