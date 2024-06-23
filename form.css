@@ -1,7 +1,15 @@
+body { user-select:none; /* standard syntax */ -webkit-user-select:none; /* for Chrome、Safari */ -moz-user-select:none;  /* for Mozilla、Firefox */ }
+@font-face { font-family: 'lxgw'; src: url('font/LXGW_WenKai_Mono_TC/LXGWWenKaiMonoTC-Regular.ttf'); }
+@font-face { font-family: 'playwrite'; src: url('font/Playwrite_AU_TAS/PlaywriteAUTAS-VariableFont_wght.ttf'); }
+a{ text-decoration: none; color: #291b09; }
+body{ background-color: #FFFBEE; margin: 0%;}
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar:hover { width: 7px; height: 7px; }
 /* NameBox */
 .NameBox { position: relative; margin: 20px 0 40px; width: 190px; }
-.NameBox input { background-color: #FFFBEE; border: 0; border-bottom: 2px #fff solid; display: block; width: 100%; padding: 15px 0; font-size: 18px; color: #fff; }  
+.NameBox input { border-radius: 10px; background-color: #ffe48e; border: 0; border-bottom: 2px #fffdf5 solid; display: block; width: 100%; padding: 15px 0; font-size: 18px; color: #a98d1b; }  
 .NameBox input:focus, .NameBox input:valid { outline: 0; border-bottom-color: #e6d2ad; }  
 .NameBox label { position: absolute; top: 15px; left: 0; pointer-events: none; }  
-.NameBox label span { display: inline-block; font-size: 18px; min-width: 5px; color: #fff; transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }  
-.NameBox input:focus+label span, .NameBox input:valid+label span { color: #e6cbad; transform: translateY(-30px); }
+.NameBox label span { display: inline-block; font-size: 18px; min-width: 5px; margin-left: 5px; color: #a98d1b; transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }  
+.NameBox input:focus+label span, .NameBox input:valid+label span { color: #aa7335; transform: translateY(-30px); }
+.NameBox { display: flex; justify-content: center; align-items: center; justify-content: center; }
