@@ -1,0 +1,39 @@
+/* CheckBox.Mark */
+/* .dweek { display: block; height: 1.5em; width: 1.5em; cursor: pointer; position: relative; margin-left: 10px; margin-right: 10px; }
+.dweek input { position: absolute; transform: scale(0); }
+.dweek input:checked ~ .checkmark { transform: rotate(45deg); height: 2em; width: .7em; border-color: #cd8f32; border-top-color: transparent; border-left-color: transparent; border-radius: 0; margin-top: -30px; margin-bottom: 5px; }
+.dweek .checkmark { display: block; width: inherit; height: inherit; border: 2px solid #cd8f32; border-radius: 4px; transition: all .3s; margin-left: 35px; margin-right: 5px;} */
+/* dweekDay */
+/* .dweekbox { background-color: #e6d2ad; border-radius: 10px; height: 280px; margin-left: 10px; margin-right: 10px; margin-top: -30px;}
+.dweektitle { font-family: 'lxgw'; font-size: 20px; margin-left: 10px;}
+.dweekd7 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd1 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd2 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd3 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd4 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd5 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dweekd6 { font-family: 'lxgw'; font-size: 20px; margin-left: 10px; margin-top: 15px; }
+.dwd7 { margin-top: -25px; }
+.dwd1 { margin-top: -25px; }
+.dwd2 { margin-top: -25px; }
+.dwd3 { margin-top: -25px; }
+.dwd4 { margin-top: -25px; }
+.dwd5 { margin-top: -25px; }
+.dwd6 { margin-top: -25px; }
+.dwbox7 { position: absolute; background-color: #ffe48e; margin-top: 20px; margin-left: 10px; border-radius: 10px; }
+.dwbox1 { position: absolute; background-color: #ffe48e; margin-top: 20px; margin-left: 100px; border-radius: 10px; }
+.dwbox2 { position: absolute; background-color: #ffe48e; margin-top: 80px; margin-left: 10px; border-radius: 10px; }
+.dwbox3 { position: absolute; background-color: #ffe48e; margin-top: 80px; margin-left: 100px; border-radius: 10px; }
+.dwbox4 { position: absolute; background-color: #ffe48e; margin-top: 140px; margin-left: 10px; border-radius: 10px; }
+.dwbox5 { position: absolute; background-color: #ffe48e; margin-top: 140px; margin-left: 100px; border-radius: 10px; }
+.dwbox6 { position: absolute; background-color: #ffe48e; margin-top: 200px; margin-left: 10px; border-radius: 10px; } 
+<div class="dweekbox">
+    <div class="dweektitle">預計星期幾收貨？</div>
+    <div class="dwbox7"><div class="dweekd7">日</div><label class="dweek dwd7"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox1"><div class="dweekd1">一</div><label class="dweek dwd1"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox2"><div class="dweekd2">二</div><label class="dweek dwd2"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox3"><div class="dweekd3">三</div><label class="dweek dwd3"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox4"><div class="dweekd4">四</div><label class="dweek dwd4"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox5"><div class="dweekd5">五</div><label class="dweek dwd5"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+    <div class="dwbox6"><div class="dweekd6">六</div><label class="dweek dwd6"><input type="radio" name="dateweek"><div class="checkmark"></div></label></div>
+</div> */
